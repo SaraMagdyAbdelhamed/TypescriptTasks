@@ -1,0 +1,18 @@
+{
+    "name": "typescript-tasks",
+    "version": "1.0.0",
+    "description": "Task 11 – TypeScript Functions: Retry, Cache, Rate Limiter",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "build:watch": "tsc --watch",
+        "start:retry": "ts-node task11/retry-mechanism.ts",
+        "start:cache": "ts-node task11/async-cache.ts",
+        "start:limiter": "ts-node task11/rate-limiter.ts"
+    },
+    "devDependencies": {
+        "typescript": "^5.4.5",
+        "ts-node": "^10.9.2",
+        "@types/node": "^20.12.12"
+    }
+}
